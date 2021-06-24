@@ -192,6 +192,89 @@ body{
     box-align:start;
   } */
   
+.id{
+    margin: 5px auto 10px;
+    justify-content: center;
+}
+
+.idi{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 60px auto 10px;
+    justify-content: center;
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.idd{
+    border-left: 5px solid #a2a3a2;
+    margin: 80px auto 40px;
+    padding: 20px 20px;
+}
+
+.list{
+    text-align: left;
+    padding-left: 80px;
+    margin: 35px auto;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(44, 99, 124);
+    /* text-decoration: underline; */
+}
+a{
+    text-decoration: none;
+    color: rgb(21, 146, 104);
+    font-weight: 900;
+}
+
+.sp{
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-left: 15px;
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+.whoami{
+    width: 50%;
+    margin: 50px auto 100px;
+    height: 40px;
+    position: relative;
+    z-index: 5;
+    
+}
+
+
+.whoami .wai{
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 5rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.extra{
+    background-color: rgb(245, 129, 154);
+    top: -85px;
+    z-index: 0;
+}
+
+.footer{
+    color: rgb(80, 76, 75);
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    text-align: right;
+    font-family: 'Poppins', cursive;
+    font-weight: bold;
+}
+
+.midimage{
+    width: 100%;
+}
+
 .box02:nth-child(even) {
     align-items:flex-end;
   } */
@@ -208,10 +291,79 @@ body{
   }
 
 
+  .vs{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      transition: 750ms;
+  }
+
+  .vs:hover{
+    transform: rotate(360deg) scale(1.2);
+    transition: 2000ms;
+}
+
+
+  .vstext{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content:center ;
+    padding-top: 30%;
+    transform: scale(1.1) translateY(-50px);
+    transition: 1000ms;
+}
+
+.vstext:hover{
+    transform: scale(3) translateY(-60px);
+    transition: 1000ms;
+}
+
+
+  .ques{
+      margin: 10px auto;
+  }
+
+
+  
   @media only screen and (max-width: 768px) {
     .card01 {
       width: 95%;
       margin: 0 auto;
+    }
+
+    .whoami{
+        width: 30%;
+        margin: 0 auto 30px;
+        height: 20px;
+        position: relative;
+        z-index: 5;
+        
+    }
+    
+    .whoami .wai{
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 1.6rem;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 3px;
+    
+    }
+    
+    .extra{
+        background-color: rgb(245, 129, 154);
+        top: -35px;
+        z-index: 0;
+    }
+
+
+    .idd,.idi{
+        margin: 5px auto -30px;
+        /* padding: 5px 0 ; */
+    }
+
+    .list{
+        font-size:0.8rem ;
     }
 
     .outer01{
@@ -224,17 +376,7 @@ body{
         margin-top: 0px;
     }
 
-    .col{
-        margin: 10px auto 0;
-        padding-bottom: 0;
-    }
 
-    /* .box01{
-        padding: 10px;
-        margin: 5px auto;
-        width: 96%;
-
-    } */
 
     .w-100{
         height: 200px;
@@ -247,12 +389,63 @@ body{
         font-weight: 800;
     }
 
-    .col{
+    .box01{
         width: 80%;
         padding: 5px 30px;
         flex: none;
     }
+
+    .vstext{
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        align-content:center ;
+        padding-top: 30%;
+        transform: scale(1);
+        transition: 1000ms;
+    }
+
+    .vstext:hover{
+        transform: scale(1.5) translateY(0px);
+        transition: 1000ms;
+    }
+
+    .vs{
+        transform: scale(0.6);
+    }
+
+    .vs:hover{
+        transform: rotate(-15deg) scale(0.8);
+        transition: 1000ms;
+    }
+  
     
   }
+
+
+  .titleGuess{
+      height: 70px;
+      text-align: center;
+      text-transform: uppercase;
+      font-family:cursive ;
+      font-size: 15px;
+      justify-content: center;
+      align-content: center;
+      margin-top: 100px;
+  }
+
+  .result h1{
+      font-size: 1.85rem;
+      color: rgb(117, 0, 0);
+      margin-top: -50px;
+      text-transform: capitalize;
+      font-weight: 900;
+      font-family: 'Sacramento', cursive;
+  }
+
+/* .vstext:hover{
+      transform: rotate(360deg) translate(1.04);
+  } */
+
 
 

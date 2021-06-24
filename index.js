@@ -158,3 +158,97 @@ document.getElementById("c06").addEventListener(
         document.getElementById("c06").style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
     }
 )
+
+
+
+// function clickFunction() {
+//     if (document getElementById("ronaldo").click() == true) {
+//         document.getElementById("ans1").innerHTML = "Right!!";
+//     }
+//     else if(document getElementById("messi").click() == true) {
+//         document.getElementById("ans1").innerHTML = "wrong!!";
+//     }
+//  }
+
+
+
+// var clicked1 = false;
+// document.getElementById("messi").addEventListener("click", result);
+// var choice = document.getElementById("messi").addEventListener("click");
+// if (choice==true){console.log("works!!")};
+// function result(){
+//     // global clicked;
+//     clicked1 = true;
+//     if (clicked){
+//         document.querySelector(".ans").innerHTML = "You've already guessed Wrong!!";
+
+//     }
+//     else{
+//         document.querySelector(".ans").innerHTML = "Your guess is Wrong!!";
+//     }
+// }
+
+
+document.querySelector(".py").addEventListener('click',exe1);
+function exe1(){
+    document.querySelector("#ans3").innerHTML = "right guess!!";
+}
+
+document.querySelector("#ronaldo").addEventListener('click',exe2);
+function exe2(){
+    document.querySelector("#ans1").innerHTML = "right guess!!";
+}
+document.querySelector(".mushi").addEventListener('click',exe3);
+function exe3(){
+    document.querySelector("#ans2").innerHTML = "right guess!!";
+}
+document.querySelector(".edge").addEventListener('click',exe4);
+function exe4(){
+    document.querySelector("#ans4").innerHTML = "right guess!!";
+}
+document.querySelector(".codepen").addEventListener('click',exe5);
+function exe5(){
+    document.querySelector("#ans5").innerHTML = "right guess!!";
+}
+
+
+
+
+document.querySelector(".js").addEventListener('click',exe6);
+function exe6(){
+    document.querySelector("#ans3").innerHTML = "sorry! wrong guess!!";
+}
+
+document.querySelector("#messi").addEventListener('click',exe7);
+function exe7(){
+    document.querySelector("#ans1").innerHTML = "sorry! wrong guess!!";
+}
+document.querySelector(".sakib").addEventListener('click',exe8);
+function exe8(){
+    document.querySelector("#ans2").innerHTML = "sorry! wrong guess!!";
+}
+document.querySelector(".chrome").addEventListener('click',exe9);
+function exe9(){
+    document.querySelector("#ans4").innerHTML = "sorry! wrong guess!!";
+}
+document.querySelector(".github").addEventListener('click',exe10);
+function exe10(){
+    document.querySelector("#ans5").innerHTML = "sorry! wrong guess!!";
+}
+
+
+
+
+
+// var reply1 = function(idname){
+//     document.querySelector(idname).innerHTML = "Your guess is Wrong!!";
+//     this.style.transform = 'scale(0.9)';
+//     this.style.transition = '500ms';
+    
+// }
+
+// document.getElementById("sakib").onclick = reply1("#ans2");
+// document.getElementById( "messi").onclick = reply1("#ans1");
+// document.getElementById("chrome").onclick = reply1("#ans4");
+// document.getElementById("github").onclick = reply1("#ans5");
+// document.getElementById("js").onclick = reply1("#ans3");
