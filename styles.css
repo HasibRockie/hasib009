@@ -333,13 +333,14 @@ a{
     }
 
     .whoami{
-        width: 30%;
+        width: 45%;
         margin: 0 auto 30px;
         height: 20px;
         position: relative;
         z-index: 5;
         
     }
+
     
     .whoami .wai{
         color: rgb(0, 0, 0);
@@ -366,9 +367,12 @@ a{
         font-size:0.8rem ;
     }
 
-    .outer01{
-        margin: 0 auto 0px;
-        padding: 0 auto 5px;
+
+   
+
+    .cardbox{
+        margin: 0px auto;
+        padding: 0;
     }
 
     .row{
@@ -376,7 +380,15 @@ a{
         margin-top: 0px;
     }
 
+    .outer01{
+        margin: 0 auto 0px;
+        padding: 20px 5px;
+        width: 100%;
+    }
 
+    .blank{
+        display: none;
+    }
 
     .w-100{
         height: 200px;
