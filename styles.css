@@ -478,6 +478,12 @@ bottom:-400px;
       margin: 0 auto;
     }
 
+    .head01{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center center;
+    }
+
     .whoami{
         width: 45%;
         margin: 0 auto 30px;
