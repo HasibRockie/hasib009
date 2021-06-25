@@ -448,21 +448,24 @@ bottom:-400px;
     align-items: center;
 }
 .rect h1{
-    font-size: 3rem;
+    font-size: 6rem;
     text-align: center;
     font-family: "Poppins",serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 800;
     letter-spacing: 5px;
     padding: 40px 25px;
+    color: rgb(6, 87, 90);
+    font-family: "Sacramento";
 }
 
 .rect p{
     font-size: 0.8rem;
     padding: 5px 7%;
-    color: rgb(99, 99, 99);
+    color: rgb(17, 16, 65);
     line-height: 19px;
     letter-spacing: 2px;
+    font-weight: 600;
     text-align: justify;
 }
 
@@ -485,7 +488,7 @@ bottom:-400px;
     }
 
     .rect h1{
-        font-size: 1.3rem;
+        font-size: 2.3rem;
     }
 
     .rect p{
@@ -594,12 +597,20 @@ bottom:-400px;
   .titleGuess{
       height: 70px;
       text-align: center;
-      text-transform: uppercase;
-      font-family:cursive ;
+      text-transform: capitalize;
+      font-family:"Sacramento" ;
       font-size: 15px;
       justify-content: center;
       align-content: center;
       margin-top: 100px;
+      font-size: 2rem;
+      font-weight: 900;
+      color: rgb(10, 50, 124);
+  }
+
+  .titleGuess h1{
+      font-weight: 900;
+      font-size: 2.5rem;
   }
 
   .result h1{
